@@ -1,0 +1,19 @@
+AVamos a hacer el mars rover...
+
+Reglas de negocio:
+
+El mars rover tendra un punto de inicial (x,y) y estará "mirando/orientando" hacia una direction (N,E,S,O).
+El mars rover será capaz de recibir comandos que tendrá que ejecutar. Necesitará saber reaccionar a los siguientes comandos:
+Moverse hacia delante (R de recto que la D es para la derecha)
+Moverse hacia atras (A)
+Girar a la izquierda (I)
+Girar a la derecha (D)
+
+ - "RRR" Moverá el mars 3 posiciones en la direccion que este orientado. (Si esta en 0,0 mirando norte al acabar estará en 3,0 mirando al norte)
+ - "RIAD" Moverá recto 1 posición, girará a la izquierda, irá hacia atrás y girará a la derecha. (Si esta en 0,0 mirando norte al acabar estará en 1,1 mirando al norte)
+
+
+Tener en cuenta que los planetas son esfericos (cuando se llega al borde hay que "salir por el otro lado")
+
+Añadir detección de obstaculos antes de moverse a una nueva posición. Si siguiendo una secuencia de comandos se encuentra un obstaculo se debe parar y "reportar" la posición actual, la dirección y la posición del obstaculo.
+
